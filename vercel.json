@@ -1,13 +1,8 @@
 {
+  "outputDirectory": "client/dist",
+  "framework": "vite",
+  "buildCommand": "vite build --config client/vite.config.ts",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/client/index.html" }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "no-cache" }
-      ]
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
