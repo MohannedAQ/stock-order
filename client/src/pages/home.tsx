@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { ChefHat, ClipboardList, ArrowRight } from "lucide-react";
-import logo from "@assets/generated_images/minimalist_linear_icon_of_a_chef's_knife_and_a_fork_crossed.png";
+<img src="/generated_images/minimalist_linear_icon_of_a_chef's_knife_and_a_fork_crossed.png" />;
 
 export default function Home() {
   return (
