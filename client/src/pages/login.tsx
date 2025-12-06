@@ -8,7 +8,6 @@ import { Lock, ArrowLeft } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { Link } from "wouter";
 import { useAuth } from "@/lib/storage";
-import logo from "@assets/generated_images/minimalist_linear_icon_of_a_chef's_knife_and_a_fork_crossed.png";
 
 export default function Login() {
   const [username, setUsername] = useState("");
@@ -49,8 +48,7 @@ export default function Login() {
       <div className="w-full max-w-md space-y-8">
         <div className="flex flex-col items-center space-y-2 text-center">
           <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-2 shadow-lg">
-             <img src={logo} alt="Logo" className="w-10 h-10 object-contain invert brightness-0 filter" />
-          </div>
+             <div />
           <h1 className="text-3xl font-heading font-bold text-primary">Manager Portal</h1>
           <p className="text-muted-foreground">Sign in to manage inventory and settings</p>
         </div>
