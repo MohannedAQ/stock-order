@@ -2,7 +2,6 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { ChefHat, ClipboardList, ArrowRight } from "lucide-react";
-<img src="/generated_images/minimalist_linear_icon_of_a_chef's_knife_and_a_fork_crossed.png" />;
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
       <div className="w-full max-w-md space-y-8 text-center">
         <div className="flex flex-col items-center space-y-2">
           <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mb-4 shadow-lg">
-             <img src={logo} alt="KitchenSync Logo" className="w-16 h-16 object-contain invert brightness-0 filter" />
+             <div />
           </div>
           <h1 className="text-4xl font-heading font-bold tracking-tight text-primary">KitchenSync</h1>
           <p className="text-muted-foreground text-lg">Restaurant Order Management System</p>
